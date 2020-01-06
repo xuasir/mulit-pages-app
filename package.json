@@ -1,0 +1,29 @@
+{
+  "name": "mulit-pages-app",
+  "version": "1.0.0",
+  "description": "通用型多页面脚手架基础配置",
+  "main": "index.js",
+  "bin": {
+    "mpa": "./bin/mpa.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "webpack",
+    "pages"
+  ],
+  "author": "xuguo",
+  "license": "MIT",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "git-clone": "^0.1.0",
+    "glob": "^7.1.6",
+    "inquirer": "^7.0.1",
+    "metalsmith": "^2.3.0",
+    "ora": "^4.0.3",
+    "rimraf": "^3.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
